@@ -1,0 +1,19 @@
+#main{
+	display:grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(4,auto); 
+	justify-items:center;
+}
+
+#title{
+	grid-row: 1/2;
+}
+#img-div{
+	grid-row: 2/3;
+}
+#tribute-info{
+	grid-row: 3/4;
+}
+#link{
+	grid-row: 4/5;
+}
